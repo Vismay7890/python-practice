@@ -1,0 +1,8 @@
+# Create a result array by adding the following two NumPy arrays. Next, modify the result array by calculating the square of each element
+import numpy as np
+x = np.array([[5, 6, 9], [21 ,18, 27]])
+y = np.array([[15 ,33, 24], [4 ,7, 1]])
+sum = x+y
+print(sum)
+square = sum**2
+print(square)
